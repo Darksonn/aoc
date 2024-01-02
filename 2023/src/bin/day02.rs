@@ -10,7 +10,7 @@ struct Round {
 }
 
 fn main() {
-    let input = std::fs::read("input.txt").unwrap();
+    let input = std::fs::read("inputs/day02.txt").unwrap();
     let input = std::str::from_utf8(&input).unwrap();
     let mut games = Vec::new();
     for line in input.lines() {

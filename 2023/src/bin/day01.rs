@@ -13,7 +13,7 @@ fn first_digit(mut line: &str, mapping: &Mapping) -> u32 {
 
 
 fn main() {
-    let file = std::fs::read("input.txt").unwrap();
+    let file = std::fs::read("inputs/day01.txt").unwrap();
     let lines: Vec<&str> = std::str::from_utf8(&file).unwrap().lines().collect();
 
     let mut values = Vec::new();

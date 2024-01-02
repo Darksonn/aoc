@@ -18,7 +18,7 @@ fn lookup(input: &Vec<Vec<Option<usize>>>, x: isize, y: isize) -> Option<usize> 
 }
 
 fn main() {
-    let input = std::fs::read("input.txt").unwrap();
+    let input = std::fs::read("inputs/day03.txt").unwrap();
 
     let input: Vec<Vec<u8>> = input
         .split(|c| *c == b'\n')
